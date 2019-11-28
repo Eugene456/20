@@ -1,7 +1,7 @@
 'use strict';
 
-import carousel from "../script/sliderCarousel";
-import valid from "../script/plugins/validator/validator";
+import carousel from "./modules/sliderCarousel";
+import valid from "./modules/validator";
 import countTimer from "./modules/countTimer";
 import toggleMenu from "./modules/toggleMenu";
 import togglePopUp from "./modules/togglePopUp";

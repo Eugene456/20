@@ -8,11 +8,11 @@ const sendForm = (formId) =>{
     
     form.addEventListener('click', (event) =>{
         
-        button.removeAttribute('disabled');
-        
-        if(form.querySelectorAll('.validator-error')){
+        if(form.querySelectorAll('.validator-error').length !== 0){
 				button.setAttribute('disabled', 'disabled');
-			} 
+			} else{
+                button.removeAttribute('disabled');
+            }
 		
 	    	
     });

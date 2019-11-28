@@ -116,7 +116,7 @@ const validForm1 = new Validator({
 	selector: '#form1',
 	pattern: {
 		'name': /[А-Яа-яЁё]/,
-		'phone': /^\+\d{10}$/
+		'phone': /^\d{11}$/
 	},
 	method: {
 		'form1-name':[
@@ -138,7 +138,7 @@ const validForm2 = new Validator({
 	selector: '#form2',
 	pattern: {
 		'name': /[А-Яа-яЁё]/,
-		'phone': /^\+\d{10}$/,
+		'phone': /^\d{11}$/,
 		'message': /[А-Яа-яЁё]/
 	},
 	method: {
@@ -165,7 +165,7 @@ const validForm3 = new Validator({
 	selector: '#form3',
 	pattern: {
 		'name': /[А-Яа-яЁё]/,
-		'phone': /^\+\d{10}$/
+		'phone': /^\d{11}$/
 	},
 	method: {
 		'form3-name':[
